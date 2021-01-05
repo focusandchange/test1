@@ -1,0 +1,43 @@
+.index_bg{background: url(../img/bg.jpg);background-size:100% 100%;background-repeat:no-repeat; width: 100%;height: 100%;display: flex; justify-content: center;align-items: center;}
+ht: 3rem;}
+.monkey{position: absolute;bottom: 0;left: 3%;width: 94%;}
+/* 排行 */
+.rank{width: 100%;height: 100%;display: flex;justify-content: center;align-items: center;flex-direction: column;margin-top: -15%;z-index: 999;}
+.rank_head{width: 20rem;height: 7rem;z-index: 10;}
+.rank_whole{width: 20rem;background-color: #ebba74;border: 4px solid #eff58c;position: relative;margin-top: -1.5rem;display: flex;flex-direction: column;margin-bottom: 1rem;}
+.rank_del{position: absolute;top: -1.5rem;right: -1rem;width: 2.8rem;height: 2.8rem; z-index: 11;}
+.rank_title{
+	color: #e75100;display: flex;flex-direction: row;justify-content: space-around;font-weight: bold;
+	font-size: 1rem; /*font-size: 0.6rem;*/
+	width: 100%;
+	margin-top: 1.5rem;
+	margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.rank_overflow{
+	overflow-y: scroll;
+	width: 100%;
+	height: 17rem;
+	margin:0.5rem 0;
+}
+.rank_content{width: 98%;margin: 0.5rem 1%; display: flex;flex-direction: column; }
+.rank_content1{width: 98%;margin: 0 1%; display: flex;flex-direction: column; margin-top: 0.3rem;}
+.rank_content_for,
+.rank_content_my{	width: 100%;background-color: #f2cf8d; display: flex;flex-direction: row;align-items: center;height: 3rem;border-radius: 3px;margin-bottom: 0.3rem;	}
+.rank_item {	padding: 0 .5rem;	}
+.rank_item:last-child {	margin-left: auto;	margin-right: 1rem;	}
+.rank_number{
+	width: 1rem; 
+	font-size: 1rem;font-weight: bold;color: #e75100;text-align: center;
+	padding: 0 1rem;
+}
+.rank_name{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.rank_name img{width: 2rem;height: 2rem;border-radius: 50%;overflow: hidden;margin-right: 0.2rem;}
+/*.rank_gh{display: flex;flex-direction: column;justify-content: center;width: 3.8rem;}
+.rank_jy{width: 2rem;text-align: center;color: #000000;font-size: 0.5rem;margin-right: 1rem;} */
+.rank_zf{	text-align: center;color: #000000;font-size: 1rem;	}
+.rank_my{width: 20rem;border: 4px solid #eff58c;background-color: #f5bf37;}
